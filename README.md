@@ -14,3 +14,10 @@ A lightweight Python script that simulates a dictionary-based brute-force attack
 4. Run the script:
    ```bash
    python cracker.py
+   
+## Defensive Takeaway
+This simulation demonstrates why simple, predictable words (like secret123 or admin) are highly vulnerable to automated guessing. In a real-world enterprise environment, these attacks should be mitigated by implementing:
+
+1. Multi-Factor Authentication (MFA)
+2. Account Lockout Policies (e.g., locking an account after 5 failed attempts)
+3. Rate Limiting to prevent rapid, automated requests.
